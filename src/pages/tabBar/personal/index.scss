@@ -1,0 +1,78 @@
+.personal {
+    position: relative;
+
+    .background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 750rpx;
+        height: 400rpx;
+        z-index: -1;
+    }
+
+    .user-info {
+        position: relative;
+        width: 750rpx;
+        height: 400rpx;
+        padding: 0 50 20rpx;
+
+        .user-avatar {
+            position: absolute;
+            top: 196rpx;
+            left: 50rpx;
+            width: 120rpx;
+            height: 120rpx;
+            margin-right: 20rpx;
+            border-radius: 20rpx;
+        }
+
+        .nickname {
+            position: absolute;
+            top: 206rpx;
+            left: 188rpx;
+            font-size: 36rpx;
+            color: #FFFFFF;
+        }
+    }
+
+    .user-order {
+        padding: 28rpx;
+        background: #FFFFFF;
+
+        .user-order-title {
+            .left {
+                font-size: 28rpx;
+                font-weight: 600;
+                color: #000000;
+            }
+
+            .right {
+                display: flex;
+                align-items: center;
+                font-size: 24rpx;
+                line-height: 24rpx;
+                color: #6d6d6d;
+
+                .right-icon {
+                    margin-left: 20rpx;
+                }
+            }
+        }
+
+        .order-status {
+            margin-top: 40rpx;
+
+            .order-status-item {
+                font-size: 24rpx;
+
+                .order-status-image {
+                    width: 56rpx;
+                    height: 56rpx;
+                    margin-bottom: 20rpx;
+                }
+
+            }
+        }
+    }
+
+}

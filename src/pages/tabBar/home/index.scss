@@ -1,0 +1,30 @@
+page {
+    background: #FFFFFF;
+}
+
+.home {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 50rpx;
+    padding-top: 110rpx;
+
+    .ad-image {
+        width: 710rpx;
+        height: 400rpx;
+        border-radius: 20rpx;
+    }
+
+    .banner-image {
+        width: 710rpx;
+        height: 360rpx;
+        border-radius: 16rpx;
+        background-color: black;
+    }
+
+    .goods-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+}

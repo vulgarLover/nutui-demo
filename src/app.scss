@@ -1,0 +1,127 @@
+page {
+    View {
+        box-sizing: border-box;
+    }
+
+    background: #F6F6F6;
+    font-family: PingFangSC-Medium, PingFang SC;
+
+
+    /** nutui全局css变变量 **/
+    --nutui-brand-color: #196DFF;
+    --nutui-brand-color-start: #196DFF;
+    --nutui-brand-color-end: #196DFF;
+    --nutui-brand-link-color: #396acc;
+    --nutui-brand-text-color: #ffffff;
+    --nutui-gray-0: #000000;
+    // 主要内容用色，常用语常规标题内容、细文浏览、常规按钮文字以及图表引导。
+    --nutui-gray-1: #1a1a1a;
+    // 次要文字色，用于次级标题、属性标示、非主要信息引导等。
+    --nutui-gray-2: #757575;
+    // 不可操作内容色，用于预置内容、无效内容、特殊不可点击按钮、组件边框线等。
+    --nutui-gray-3: #bfbfbf;
+    // 页面基底色，用于卡片式页面的兜底，永远置于页面最底层。
+    --nutui-gray-4: #f4f4f4;
+    // 卡片内嵌背景色，用于卡片内部的信息包裹，感知较弱。
+    --nutui-gray-5: #f8f8f8;
+    // 卡片背景色
+    --nutui-gray-6: #ffffff;
+    // 页面全局蒙层，用于弹出层、弹窗、新功能引导出现的整页遮罩
+    --nutui-gray-7: rgba(0, 0, 0, 0.7);
+    // 局部蒙层，用于非整页遮罩
+    --nutui-gray-8: rgba(0, 0, 0, 0.4);
+    // 间隔线/容错线，用于结构或信息分割
+    --nutui-gray-9: rgba(0, 0, 0, 0.08);
+    // 图片容错蒙层
+    --nutui-gray-10: rgba(0, 0, 0, 0.02);
+}
+
+
+.block-item {
+    width: 710rpx;
+    margin: 20rpx auto 0;
+    border-radius: 20rpx;
+}
+
+.block-item:first-child {
+    margin-top: 0;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.layout-flex {
+    display: flex !important;
+}
+
+.layout-inline-flex {
+    display: inline-flex !important;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-content-center {
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.flex-content-start {
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+
+.flex-content-end {
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+}
+
+.flex-content-between {
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+.flex-content-around {
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+}
+
+.flex-align-center {
+    align-items: center;
+}
+
+.flex-align-start {
+    align-items: flex-start;
+}
+
+.flex-align-end {
+    align-items: flex-end;
+}
+
+.submit-btn {
+    color: #FFFFFF;
+    margin-top: 40rpx;
+    height: 80rpx;
+    width: 250rpx;
+    line-height: 80rpx;
+    font-size: 35rpx;
+    background-color: #196DFF;
+}
